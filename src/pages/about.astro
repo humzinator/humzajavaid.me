@@ -1,3 +1,18 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+<main>
   <h1>🧑‍💻 About Me</h1>
 
   <p>
@@ -19,3 +34,7 @@
   <p>
     Cloud infra, Terraform workflows, ML on AWS, roti recipes, or good vibes? Say hi on X or LinkedIn. 🚀
   </p>
+</main>
+		<Footer />
+	</body>
+</html>
