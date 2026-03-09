@@ -32,6 +32,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
   <p>
     Keep it real. If you're building something cool or just passing through, say hi. 🚀
   </p>
+	<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: center; margin: 20px 0;">
+	  <!-- Buy Me a Coffee button -->
 	  <script type="text/javascript"
 	    src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
 	    data-name="bmc-button"
@@ -44,27 +46,28 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	    data-font-color="#000000"
 	    data-coffee-color="#ffffff">
 	  </script>
-	  <br />
-<a href="https://humzjav.retool.com/" target="_blank" rel="noopener noreferrer">
-  <button style="
-    display: block;
-    width: 100%;
-    max-width: 380px;
-    background: linear-gradient(135deg, #0066cc, #004080);
-    color: white;
-    padding: 18px 32px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
-    transition: transform 0.15s, box-shadow 0.15s;
-  " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 10px 20px rgba(0,102,204,0.4)'"
-    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 12px rgba(0,102,204,0.3)'">
-    Launch Retool Dashboard
-  </button>
-</a>
+	
+	  <!-- Retool Dashboard button -->
+	  <a href="https://humzjav.retool.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+	    <button style="
+	      background: linear-gradient(135deg, #0066cc, #004080);
+	      color: white;
+	      padding: 18px 32px;
+	      font-size: 18px;
+	      font-weight: bold;
+	      border: none;
+	      border-radius: 8px;
+	      cursor: pointer;
+	      box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
+	      transition: transform 0.15s, box-shadow 0.15s;
+	      min-width: 220px;
+	    " 
+	    onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 10px 20px rgba(0,102,204,0.4)'"
+	    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 12px rgba(0,102,204,0.3)'">
+	      Launch Retool Dashboard
+	    </button>
+  </a>
+</div>
 </main>
 		<Footer />
 	</body>
